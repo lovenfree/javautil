@@ -1,4 +1,3 @@
-
 package card.validator.utils;
 
 import java.security.MessageDigest;

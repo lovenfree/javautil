@@ -65,7 +65,7 @@ public class Validator {
 		onBusTime = null;
 	}
 
-	// cardInfo : [ì¹´ë“œID(8)][ë²„ìŠ¤ë²ˆí˜¸(7)][ìŠ¹ì°¨/í•˜ì°¨ ì½”ë“œ(1)][ìµœê·¼ ìŠ¹ì°¨ì‹œê°(14)]
+	// cardInfo : [Ä«µåID(8)][¹ö½º¹øÈ£(7)][½ÂÂ÷/ÇÏÂ÷ ÄÚµå(1)][ÃÖ±Ù ½ÂÂ÷½Ã°¢(14)]
 	// sample : CARD_001BUS_001N20171019143610
 	public void inspectCard(String cardInfo) throws IOException, ParseException {
 		if (cardInfo.length() != 30) {
@@ -128,7 +128,7 @@ public class Validator {
 		}
 	}
 	
-	//íŒŒì¼ëª…(String),íŒŒì¼í¬ê¸°(int),íŒŒì¼ë°ì´í„°(NByte)
+	//ÆÄÀÏ¸í(string),ÆÄÀÏÅ©±â(long),ÆÄÀÏµ¥ÀÌÅÍ(NByte)
 	public void sendToServer() throws IOException {
 		Socket socket = null;
 		DataOutputStream os = null;
@@ -176,5 +176,3 @@ public class Validator {
 		fileFrom.renameTo(fileTo);
 	}
 }
-
-

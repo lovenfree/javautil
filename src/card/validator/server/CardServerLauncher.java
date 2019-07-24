@@ -1,12 +1,7 @@
-
 package card.validator.server;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Scanner;
-
-import card.validator.server.util.FileUtil;
-import card.validator.utils.CardUtility;
 
 public class CardServerLauncher {
 	public static void main(String[] args) throws IOException, InterruptedException {
@@ -14,6 +9,8 @@ public class CardServerLauncher {
 		Thread thread = new Thread(cardSever);
 		thread.start();
 		
+		ValidatorReport report = new ValidatorReport();
+
 		Scanner scanner = new Scanner(System.in);
 		
 		String line;
@@ -21,39 +18,17 @@ public class CardServerLauncher {
 			if (line.equals("QUIT")) {
 				cardSever.close();
 				break;
-			}else if(line.equals("REPORT")){
-				CardServerLauncher laun = new CardServerLauncher();
-				laun.makeReport();
-			}
-			
-		}
-	}
-	
-	
-	
-	public void makeReport(){
-		ArrayList<String> files = FileUtil.listFilesAndFolders("../SERVER/");
-		
-		ArrayList<String> reportFile = new  ArrayList();
-		for(String file : files){
-			String fileName = file.split(" ")[0];
-			System.out.println(fileName.substring(9, 17));
-			
-			System.out.println(CardUtility.getCurrentDateString());
-			if(fileName.substring(9, 17).equals(CardUtility.getCurrentDateString())){
-				reportFile.add(file);
-					
+			} else if (line.equals("REPORT")) {
+				if (report.reportValidator()) {
+					System.out.println("REPORT FINISH");
+				}
+			} else { // Date
+				String option = null;
+				if (line.length() > 9) {
+					option = line.split(" ")[1];
+				}
+				report.printReport(line.substring(0, 8), option);
 			}
 		}
-		
-		
-		System.out.println(reportFile.size());
-			
 	}
-	
-	public load
-	
- 
 }
-
-

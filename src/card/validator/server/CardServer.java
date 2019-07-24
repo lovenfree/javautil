@@ -1,4 +1,3 @@
-
 package card.validator.server;
 
 import java.io.DataInputStream;
@@ -8,7 +7,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class CardServer implements Runnable { // Runnable Interface êµ¬í˜„
+public class CardServer implements Runnable { // Runnable Interface ±¸Çö
 	public static final int BUF_SIZE = 4096;
 	
 	private ServerSocket serverSocket;
@@ -19,7 +18,7 @@ public class CardServer implements Runnable { // Runnable Interface êµ¬í˜„
 		return serverSocket;
 	}
 
-	//íŒŒì¼ëª…(String),íŒŒì¼í¬ê¸°(int),íŒŒì¼ë°ì´í„°(NByte)
+	//ÆÄÀÏ¸í(String),ÆÄÀÏÅ©±â(int),ÆÄÀÏµ¥ÀÌÅÍ(NByte)
 	public void run() {
 		serverSocket = null;
 		try {

@@ -1,4 +1,3 @@
-
 package card.validator.client;
 
 import java.io.IOException;
@@ -54,7 +53,3 @@ public class ValidatorLauncher {
 		}
 	}
 }
-
-
-
-
