@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="card.validator.server.ValidatorReport" project="Question4-2" 
-    file="/Question4-2/src/card/validator/server/ValidatorReport.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="sp.server.sp.src.com.checker.ValidatorReport" project="Question4-2"
+    file="/Question4-2/src/card/checker/server/ValidatorReport.java" binary="false" corner="BOTTOM_RIGHT">
     <position height="-1" width="-1" x="815" y="161"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +10,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="card.validator.client.ValidatorLauncher" project="Question4-2" 
-    file="/Question4-2/src/card/validator/client/ValidatorLauncher.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="sp.client.sp.src.com.checker.ValidatorLauncher" project="Question4-2"
+    file="/Question4-2/src/card/checker/client/ValidatorLauncher.java" binary="false" corner="BOTTOM_RIGHT">
     <position height="-1" width="-1" x="177" y="565"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -19,8 +19,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="card.validator.utils.CardUtility" project="Question4-2" 
-    file="/Question4-2/src/card/validator/utils/CardUtility.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="sp.utils.sp.src.com.checker.CardUtility" project="Question4-2"
+    file="/Question4-2/src/card/checker/utils/CardUtility.java" binary="false" corner="BOTTOM_RIGHT">
     <position height="-1" width="-1" x="457" y="566"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +28,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="card.validator.server.CardServer" project="Question4-2" 
-    file="/Question4-2/src/card/validator/server/CardServer.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="sp.server.sp.src.com.checker.CardServer" project="Question4-2"
+    file="/Question4-2/src/card/checker/server/CardServer.java" binary="false" corner="BOTTOM_RIGHT">
     <position height="-1" width="-1" x="524" y="302"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,8 +37,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="card.validator.server.CardServerLauncher" project="Question4-2" 
-    file="/Question4-2/src/card/validator/server/CardServerLauncher.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="sp.server.sp.src.com.checker.CardServerLauncher" project="Question4-2"
+    file="/Question4-2/src/card/checker/server/CardServerLauncher.java" binary="false" corner="BOTTOM_RIGHT">
     <position height="-1" width="-1" x="740" y="389"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -46,8 +46,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="card.validator.server.vo.ReportVo" project="Question4-2" 
-    file="/Question4-2/src/card/validator/server/vo/ReportVo.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="sp.vo.server.sp.src.com.checker.ReportVo" project="Question4-2"
+    file="/Question4-2/src/card/checker/server/vo/ReportVo.java" binary="false" corner="BOTTOM_RIGHT">
     <position height="-1" width="-1" x="942" y="499"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -55,8 +55,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="card.validator.client.Validator" project="Question4-2" 
-    file="/Question4-2/src/card/validator/client/Validator.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="7" language="java" name="sp.client.sp.src.com.checker.Validator" project="Question4-2"
+    file="/Question4-2/src/card/checker/client/Validator.java" binary="false" corner="BOTTOM_RIGHT">
     <position height="-1" width="-1" x="170" y="334"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
